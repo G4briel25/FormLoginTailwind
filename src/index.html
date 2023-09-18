@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- font usados -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- *********** -->
+
+  <link href="../dist/output.css" rel="stylesheet">
+  <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
+  <title>Login</title>
+</head>
+
+<body>
+  <div class="container-login poppins">
+    <div class="bg-white h-[47.875rem] w-[73.125rem] md:h-[52.625rem]">
+      <div class="md:flex md:flex-row-reverse md:justify-between">
+        <form class="p-form md:w-1/2 lg:w-3/5 md:p-0 md:pt-[303px] md:px-[25px] md:pb-[40px]" autocomplete="on">
+          <div class="flex flex-col items-center px-1">
+            <p class="text-xl text-neutral-600 text-center pb-34 ls-2px">ACCOUNT LOGIN</p>
+            
+              <div class="sm:flex">
+                <div class="mb-5 border-input">
+                  <input class="px-6 w-96 h-14 sm:w-80 md:w-full lg:w-[226px] text-lg outline-none borderFocus" type="text" placeholder="User name" required name="name">
+                </div>
+                <div class="mb-5 border-input sm:border-l-0">
+                  <input class="px-6 w-96 h-14 sm:w-80 md:w-full lg:w-[226px] text-lg outline-none borderFocus" type="password" placeholder="Password" required><br>
+                </div>
+              </div>
+  
+  
+            <button class="w-96 h-[3.125rem] sm:w-full lg:w-[455px] bg-verde rounded-sm text-xs text-white montserrat signUp">SIGN IN</button>
+      
+              <div class="flex w-full justify-center text-sm pt-7 pb-60 text-xs">
+                <p class="text-neutral-400 mr-1">Forgot</p>
+                <a href="#" class="text-verde linksHover">User name / password?</a>
+              </div>
+            
+            <div class="text-verde linksHover ">
+              <a href="#">SIGN UP</a>
+            </div>
+          </div>
+        </form>
+        
+        <!-- img -->
+        <div class="hidden md:block lg:hidden md:bg-no-repeat md:bg-cover md:bg-center md:relative md:z-[1]" style="background-image: url('./imgs/bg-01.jpg'); width: 40%; height: 846px;"></div>
+        <div class="hidden lg:block md:hidden lg:bg-no-repeat lg:bg-cover lg:bg-center lg:relative lg:z-[1]" style="background-image: url('./imgs/bg-01.jpg'); width: 50%; height: 846px;"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

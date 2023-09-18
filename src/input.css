@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fontes usados */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.poppins {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+/*------------------------------------*/
+
+.container-login {
+    background-color: #f2f2f2;
+    width: 100%;
+    min-height: 100vh;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-verde {
+    background-color: #00ad5f;
+}
+
+.text-verde {
+    color: #00ad5f;
+}
+
+.p-form {
+    padding: 150px 9px 36px;
+}
+
+.pb-34 {
+    padding-bottom: 34px;
+}
+
+.ls-2px {
+    letter-spacing: 0.125rem;
+}
+
+.border-input {
+    border: 1px solid #e6e6e6;
+}
+
+.linksHover {
+    transition: all .4s;
+}
+
+.linksHover:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+.signUp {
+    transition: all .4s;
+}
+
+.signUp:hover {
+    background-color: #333;
+}
+
+.borderFocus {
+    transition: all .1s;
+}
+
+.borderFocus:focus {
+    transition: all .9s;
+    border: 1px solid #00ad5f;
+}
+
+.button-w {
+    width: 643px;
+}
+
+.form-lg {
+    padding: 303px 65px 40px;
+}
